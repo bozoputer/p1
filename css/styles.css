@@ -1,0 +1,54 @@
+body {
+  background-color: #545454; }
+
+.off-canvas {
+  background-color: #e83425; }
+
+footer ul {
+  float: right; }
+  @media only screen and (max-width: 641px) {
+    footer ul {
+      float: left; }
+      footer ul img {
+        width: 50px; } }
+footer li {
+  display: inline-block; }
+
+.title-bar {
+  background: #545454; }
+
+#my-info p, #my-info h5 {
+  color: #fff; }
+
+#ebModal {
+  background: transparent;
+  border: none; }
+  #ebModal:focus {
+    outline: none; }
+
+img[alt="E Boone"] {
+  margin: 0 auto;
+  display: block; }
+
+img {
+  outline: none; }
+  img:focus {
+    outline: none; }
+
+.close-button {
+  color: #fff; }
+  .close-button:hover {
+    color: #e83425; }
+  .close-button:active {
+    outline: none; }
+
+span.projectLink {
+  color: #545454; }
+  span.projectLink a {
+    color: #545454; }
+    span.projectLink a:hover {
+      color: #e83425; }
+
+.projects h5 {
+  color: #545454;
+  text-align: center; }
