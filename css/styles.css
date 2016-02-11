@@ -1,6 +1,14 @@
 body {
   background-color: #545454; }
 
+.title-bar {
+  background: #545454; }
+
+.callout.primary {
+  background-color: #E83425; }
+  .callout.primary h1, .callout.primary p {
+    color: #fff; }
+
 .off-canvas {
   background-color: #e83425; }
 
@@ -13,9 +21,6 @@ footer ul {
         width: 50px; } }
 footer li {
   display: inline-block; }
-
-.title-bar {
-  background: #545454; }
 
 #my-info p, #my-info h5 {
   color: #fff; }
