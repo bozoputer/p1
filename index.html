@@ -10,16 +10,16 @@
 <body>
 <div class="off-canvas-wrapper">
   <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
-    <div class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas data-position="left">
+    <div class="off-canvas position-left" id="my-info" data-off-canvas data-position="left">
       <div class="row column">
       <br>
-      <img src="img/stb.png">
+      <a data-open="ebModal"><img src="img/stb.png"></a>
       <h5>E Boone</h5>
       <p>Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit amet leo.</p>
       </div>
     </div>
     <div class="off-canvas-content" data-off-canvas-content>
-      <div class="title-bar hide-for-large">
+      <div class="title-bar">
         <div class="title-bar-left">
         <button class="menu-icon" type="button" data-open="my-info"></button>
         <span class="title-bar-title">E Boone - DWA-15 - Spring 2016</span>
@@ -76,6 +76,15 @@
       </div>
     </div>
   </div>
+</div>
+<!-- MODAL WINDOW CONTENT  -->
+<div class="reveal" id="ebModal" data-reveal>
+  <h1>What I really look like.</h1>
+  <p>That is, nothing like a bear with a push pin stuck in his midsection.</p>
+  <img src="img/eb_head.png" alt="E Boone">
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
 </div>
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
