@@ -3,8 +3,9 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>E Boone | HES CSCI E-15</title>
-<link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+<title>E Boone | Project 1 | CSCI E-15</title>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:600,700|Gentium+Basic' rel='stylesheet'>
+<link rel="stylesheet" href="css/app.css">
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -13,41 +14,47 @@
     <div class="off-canvas position-left" id="my-info" data-off-canvas data-position="left">
       <div class="row column">
       <br>
-      <a data-open="ebModal"><img src="img/stb.png"></a>
+      <a href="#" data-open="ebModal"><img src="img/stb.png"></a>
       <h5>E Boone</h5>
-      <p>Web developer based in ATL, GA (click the bear to see picture of me).</p>
-      <p></p>
+      <p>Web developer based in ATL.</p>
+      <p>I like music, <a href="#" data-open="locking"><span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex=2 title="More specifically, locking. Click if you don't know what that is.">dancing</span></a>, playing guitar, hanging with my family, books, web development, and bright colors.</p>
+      <p>Click the teddy bear to see a photo of me.</p>
+      <p>Teddy bear by <a href="http://championdontstop.com/" target="_blank">Geoff McFetridge</a>. Used without permission.</p>
       </div>
     </div>
     <div class="off-canvas-content" data-off-canvas-content>
       <div class="title-bar">
         <div class="title-bar-left">
-        <button class="menu-icon" type="button" data-open="my-info"></button>
-        <span class="title-bar-title">E Boone - DWA-15 - Spring 2016</span>
+        <button class="menu-icon" type="button" data-toggle="my-info"></button>
+        <span class="title-bar-title">DWA-15 - Spring 2016</span>
         </div>
       </div>
       <div class="callout primary">
         <div class="row column">
         <h1>E Boone's Portfolio</h1>
-        <p class="lead">This page serves as a showcase of projects for the class Dynamic Web Applications.</p>
+        <p class="lead">This page is a showcase of projects for the class <a href="http://dwa15.com">Dynamic Web Applications</a>.</p>
         </div>
       </div>
-      <div class="row small-up-2 medium-up-3 large-up-4">
-        <div class="column projects">
-          <img class="thumbnail" src="img/p1.gif">
-          <h5>Project 1 - <span class="projectLink"><a href="#">Live</a> | <a href="https://github.com/ebo-one/p1">GitHub</a></h5></span>
+      <div class="row small-up-2 medium-up-3 large-up-4 projects">
+        <div class="column">
+          <img data-open="p1" class="thumbnail" src="img/p1-b.gif">
+          <h5 data-open="p1">Project 1</h5>
+          <p><a href="#">Live</a> | <a href="https://github.com/ebo-one/p1" target="_blank">GitHub</a></p>
         </div>
-        <div class="column projects">
-          <img class="thumbnail" src="img/p2-b.gif">
-          <h5>Project 2 - <span class="projectLink"><a href="#">Live</a> | <a href="#">GitHub</a></h5></span>
+        <div class="column">
+          <img data-open="p2" class="thumbnail" src="img/p2-b.gif">
+          <h5 data-open="p2">Project 2</h5>
+          <p><a href="#">Live</a> | <a href="#">GitHub</a></p>
         </div>
-        <div class="column projects">
-          <img class="thumbnail" src="img/p3-b.gif">
-          <h5>Project 3 - <span class="projectLink"><a href="#">Live</a> | <a href="#">GitHub</a></h5></span>
+        <div class="column">
+          <img data-open="p3" class="thumbnail" src="img/p3-b.gif">
+          <h5 data-open="p3">Project 3</h5>
+          <p><a href="#">Live</a> | <a href="#">GitHub</a></p>
         </div>
-        <div class="column projects">
-          <img class="thumbnail" src="img/p4-b.gif">
-          <h5>Project 4 - <span class="projectLink"><a href="#">Live</a> | <a href="#">GitHub</a></h5></span>
+        <div class="column">
+          <img data-open="p4" class="thumbnail" src="img/p4-b.gif">
+          <h5 data-open="p4">Project 4</h5>
+          <p><a href="#">Live</a> | <a href="#">GitHub</a></p>
         </div>
       </div>
       <hr>
@@ -55,9 +62,12 @@
         <div class="row">
           <div class="small-12 columns">
             <ul>
-              <li><a href="https://twitter.com/ebo_one" target="_blank"><img src="img/twitter.png"></a></li>
-              <li><a href="https://www.instagram.com/ebo.one/" target="_blank"><img src="img/instagram.png"></a></li>
-              <li><a href="http://www.last.fm/user/ebo_one" target="_blank"><img src="img/lastfm.png"></a></li>
+              <li><a href="https://www.linkedin.com/in/eboone1" target="_blank"><img src="img/linked.png" alt="LinkedIn"></a></li>
+              <li><a href="https://github.com/ebo-one/" target="_blank"><img src="img/github.png" alt="GitHub"></a></li>
+              <li><a href="https://teamtreehouse.com/eboone" target="_blank"><img src="img/treehouse.png" alt="Treehouse"></a></li>
+              <li><a href="https://twitter.com/ebo_one" target="_blank"><img src="img/twitter.png" atl="Twitter"></a></li>
+              <li><a href="https://www.instagram.com/ebo.one/" target="_blank"><img src="img/instagram.png" alt="Instagram"></a></li>
+              <li><a href="http://www.last.fm/user/ebo_one" target="_blank"><img src="img/lastfm.png" alt="LastFM"></a></li>
             </ul>
           </div>
         </div>
@@ -68,6 +78,58 @@
 <!-- MODAL WINDOW CONTENT  -->
 <div class="reveal" id="ebModal" data-reveal>
   <img src="img/eb_head.png" alt="E Boone">
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="reveal" id="locking" data-reveal>
+  <div class="flex-video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ImgoA1Yjyeg?&showinfo=0" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="reveal projectModals" id="p1" data-reveal>
+  <h3>Project 1 - Portfolio</h3>
+  <p>Create a single page website using basic HTML and CSS with the following information:</p>
+  <ul>
+    <li>Your name</li>
+    <li>A photo of yourself</li>
+    <li>Placeholder links for Project 2, 3 and 4. Include a placeholder for both the live URL of the project as well as the Github URL.</li>
+  </ul>
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="reveal projectModals" id="p2" data-reveal>
+  <h3>Project 2 - PHP Basics</h3>
+  <p>Create an <a href="http://xkcd.com/936/">xkcd style password</a> generator.</p>
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="reveal projectModals" id="p3" data-reveal>
+  <h3>Project 3 - Laravel Basics</h3>
+  <p>Create a web application called Developer's Best Friend which includes a Lorem Ipsum Generator and a Random User Generator.</p>
+  <ul>
+    <li>Your landing page should include a description of your app with either links to the two tools, or with the two tools present on the page.</li>
+    <li>The tools should be powered by HTML forms where the user can specify how many paragraphs they want, how many users they want, etc.</li>
+  </ul>
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="reveal projectModals" id="p4" data-reveal>
+  <h3>Project 3 - Final Project</h3>
+  <p>The final project should bring together all the skills we've learned throughout the semester to create a fully functioning web application that uses PHP, Laravel, and a database.</p>
+  <p>This project is open-ended. Whatever you create, the main expectation is that the project meets the following criteria:</p>
+  <ul>
+    <li>Uses PHP/Laravel.</li>
+    <li>Uses a database with at least 2 tables. This count does not include a users table, but does include pivot tables.</li>
+    <li>Demonstrates all 4 CRUD interactions (user signup/login does not count towards this).</li>
+    <li>Demonstrates basic server-side error validation.</li>
+  </ul>
   <button class="close-button" data-close aria-label="Close modal" type="button">
     <span aria-hidden="true">&times;</span>
   </button>

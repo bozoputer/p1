@@ -3486,7 +3486,7 @@ table.hover tr:nth-of-type(even):hover {
   cursor: help; }
 
 .tooltip {
-  background-color: #0a0a0a;
+  background-color: #1f50c1;
   color: #fefefe;
   font-size: 80%;
   padding: 0.75rem;
@@ -3501,7 +3501,7 @@ table.hover tr:nth-of-type(even):hover {
     width: 0;
     height: 0;
     border: inset 0.75rem;
-    border-color: transparent transparent #0a0a0a;
+    border-color: transparent transparent #1f50c1;
     border-bottom-style: solid;
     border-top-width: 0;
     bottom: 100%;
@@ -3514,7 +3514,7 @@ table.hover tr:nth-of-type(even):hover {
     width: 0;
     height: 0;
     border: inset 0.75rem;
-    border-color: #0a0a0a transparent transparent;
+    border-color: #1f50c1 transparent transparent;
     border-top-style: solid;
     border-bottom-width: 0;
     top: 100%;
@@ -3525,7 +3525,7 @@ table.hover tr:nth-of-type(even):hover {
     width: 0;
     height: 0;
     border: inset 0.75rem;
-    border-color: transparent transparent transparent #0a0a0a;
+    border-color: transparent transparent transparent #1f50c1;
     border-left-style: solid;
     border-right-width: 0;
     bottom: auto;
@@ -3538,7 +3538,7 @@ table.hover tr:nth-of-type(even):hover {
     width: 0;
     height: 0;
     border: inset 0.75rem;
-    border-color: transparent #0a0a0a transparent transparent;
+    border-color: transparent #1f50c1 transparent transparent;
     border-right-style: solid;
     border-left-width: 0;
     bottom: auto;

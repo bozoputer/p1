@@ -1,28 +1,72 @@
 .title-bar {
   background: #545454; }
+  .title-bar .title-bar-title {
+    font-family: "Open Sans", sans-serif; }
 
 .callout.primary {
-  background-color: #E83425; }
+  background-color: #15832e; }
   .callout.primary h1, .callout.primary p {
     color: #fff; }
+  .callout.primary h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800; }
+  .callout.primary p {
+    font-family: "Gentium Basic", serif; }
+  .callout.primary a {
+    color: #fff; }
+    .callout.primary a:hover {
+      text-decoration: underline;
+      color: #fff; }
+
+.callout {
+  border: none; }
 
 .off-canvas {
-  background-color: #e83425; }
+  background-color: #e83425;
+  min-height: 100%; }
+  .off-canvas h5 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center; }
+  .off-canvas p:nth-of-type(4) {
+    font-size: small;
+    margin-top: 2.5rem; }
+    @media only screen and (min-width: 641px) {
+      .off-canvas p:nth-of-type(4) {
+        margin-top: 6rem; } }
+  .off-canvas a {
+    text-decoration: underline;
+    color: #fff; }
+  .off-canvas p {
+    font-family: "Gentium Basic", serif;
+    text-align: center; }
+
+hr {
+  margin: 0.5rem auto; }
 
 footer ul {
   float: right; }
   footer ul img {
-    width: 75px; }
+    width: 50px; }
+  @media only screen and (max-width: 641px) {
+    footer ul {
+      float: none; }
+      footer ul img {
+        width: 40px; } }
 footer li {
   display: inline-block; }
+  @media only screen and (max-width: 641px) {
+    footer li:first-of-type {
+      margin-left: 4%; } }
 
 #my-info p, #my-info h5 {
   color: #fff; }
 
-#ebModal {
+#ebModal, #locking {
   background: transparent;
   border: none; }
-  #ebModal:focus {
+  #ebModal:focus, #locking:focus {
     outline: none; }
 
 img[alt="E Boone"] {
@@ -34,23 +78,56 @@ img {
   img:focus {
     outline: none; }
 
+*:focus {
+  outline: none; }
+
+.has-tip {
+  border: none;
+  position: relative;
+  display: inline-block;
+  text-decoration: underline;
+  font-weight: normal; }
+
 .close-button {
   color: #fff; }
   .close-button:hover {
-    color: #1f50c1; }
+    color: #e83425; }
   .close-button:active {
     outline: none; }
 
-span.projectLink {
-  color: #545454; }
-  span.projectLink a {
-    color: #545454; }
-    span.projectLink a:hover {
-      color: #e83425; }
+.projects {
+  padding-top: 1.5rem; }
+  .projects img:hover {
+    cursor: pointer; }
+  .projects h5 {
+    color: #e83425;
+    text-align: center;
+    font-family: "Open Sans", sans-serif; }
+    .projects h5:hover {
+      cursor: pointer; }
+  .projects p {
+    text-align: center;
+    font-family: "Gentium Basic", serif; }
+  .projects a {
+    color: #545454;
+    text-align: center; }
+    .projects a:hover {
+      color: #1f50c1; }
 
-.projects h5 {
-  color: #545454;
-  text-align: center; }
+.projectModals h3 {
+  font-family: "Open Sans", sans-serif;
+  color: #e83425; }
+.projectModals p, .projectModals li {
+  font-family: "Gentium Basic", serif;
+  color: #545454; }
+.projectModals p {
+  font-size: 1.15rem; }
+.projectModals .close-button {
+  color: #e83425; }
+  .projectModals .close-button:hover {
+    color: #1f50c1; }
+.projectModals a {
+  color: #1f50c1; }
 
 .thumbnail:focus, .thumbnail:hover {
-  box-shadow: none; }
+  box-shadow: 0 0 6px 1px rgba(31, 80, 193, 0.5); }
