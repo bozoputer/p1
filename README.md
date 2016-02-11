@@ -14,7 +14,7 @@ This project is a single-page website for the Harvard Extension School course, D
 Create a single page website using basic HTML and CSS with the following information:
 
 + Your name
-+ A photo of yourself
++ A photo of yourself (**Note**: click the teddy bear image on [my site](http://p1.ebo.one) to see an image of me.)
 + Placeholder links for Project 2, 3 and 4. Include a placeholder for both the live + URL of the project as well as the Github URL.
 
 
@@ -31,5 +31,7 @@ Create a single page website using basic HTML and CSS with the following informa
 
 ##Project demo
 [https://youtu.be/yN5KGP3zEPM ](https://youtu.be/yN5KGP3zEPM)
+
+
 
 
